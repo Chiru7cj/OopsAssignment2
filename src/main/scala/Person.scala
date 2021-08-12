@@ -18,7 +18,7 @@ class Person(var name:String,var age:Int) extends Ordered[Person] {
   }
 }
 object Person extends  App{
-  var personeOne = new Person("Alex",22)
-  var personTwo = new Person("John",22)
+  var personeOne = new Person("Java",22)
+  var personTwo = new Person("Scala",22)
   personeOne compare personTwo
 }
